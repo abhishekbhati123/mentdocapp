@@ -41,6 +41,7 @@ import { Header2Component } from './shared/header2/header2.component';
 
 import { CountUpModule } from 'countup.js-angular2';
 import { DownappComponent } from './downapp/downapp.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { DownappComponent } from './downapp/downapp.component';
     TestingComponent,
     FaqComponent,
     Header2Component,
-    DownappComponent
+    DownappComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

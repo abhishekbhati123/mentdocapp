@@ -63,7 +63,7 @@ export class AdminComponent implements OnInit {
   })
   bannerFormSubmit(r){
     console.log(r);
-    this.http.post('http://localhost:8080/api/upload',r).subscribe(this.uploadSB)
+    this.http.post('/api/upload',r).subscribe(this.uploadSB)
   }
   uploadSB=(dt)=>{
     console.log(dt)

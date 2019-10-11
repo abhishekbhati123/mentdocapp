@@ -18,7 +18,7 @@ export class CourousalComponent implements OnInit {
 
   ngOnInit() {
     console.log(this.images);
-    this.http.get('http://localhost:8080/api/many').subscribe(this.cb)
+    this.http.get('/api/many').subscribe(this.cb)
   }
   cb=(r)=>{
     this.images=r;

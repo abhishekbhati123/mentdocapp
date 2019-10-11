@@ -1,12 +1,13 @@
 export const environment = {
   production: true,
   firebase:{
-    apiKey: "AIzaSyAdjIvlNpci2vqE76yTh2TesC-sM4vUsZM",
-    authDomain: "myapp-345d5.firebaseapp.com",
-    databaseURL: "https://myapp-345d5.firebaseio.com",
-    projectId: "myapp-345d5",
-    storageBucket: "myapp-345d5.appspot.com",
-    messagingSenderId: "858074289543",
-    appId: "1:858074289543:web:5b69509428b6ba8f"
+    apiKey: "AIzaSyDyyOQUKLHjNlpO5c9MNNuxQVMyqgzCNIg",
+    authDomain: "mentcom12.firebaseapp.com",
+    databaseURL: "https://mentcom12.firebaseio.com",
+    projectId: "mentcom12",
+    storageBucket: "mentcom12.appspot.com",
+    messagingSenderId: "324666460786",
+    appId: "1:324666460786:web:1fab67fe301ae069e7d0eb",
+    measurementId: "G-Y0E283ZK6E"
   }
 };
