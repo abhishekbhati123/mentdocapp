@@ -1,0 +1,26 @@
+.header {
+    padding: 10px 16px;
+    background: aquamarine;
+    color: #f1f1f1;
+  }
+
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  img{
+      height: 80px;
+  }
+  .homeImage{
+
+  }
+  .homeImage img{
+    height: 700px;
+    width: 100%;
+  }

@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="card" [formGroup]="blogForm" >
+      <div class="card-header">
+        Add new Banner 
+      </div>
+
+      <div class="card-body">
+        <input type="text" formControlName="title" placeholder="entar the title" class="form-control">
+        <h5 class="card-title">Select a file for upload:</h5>
+        <input type="file" (change)="uploadPhoto($event)" class="form-control" accept=".png,.jpg" />
+        <textarea formControlName="text" placeholder="enter the blog text" class="form-control" cols="30" rows="10"></textarea>
+        <button (click)="blogFormSubmit(blogForm.value)" class="btn btn-primary" >Add Banner</button>
+      </div>
+    </div>
+  </div>
