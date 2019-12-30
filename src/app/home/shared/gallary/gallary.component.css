@@ -1,5 +1,5 @@
 
-h1{
+/*h1{
     text-align:center;
     margin-top: 30px;
     font-size: 40px;
@@ -27,6 +27,7 @@ h1{
     transition: .5s;
   
   }
+  
   .image-box:hover{
     flex-basis: 50%;
   }
@@ -38,4 +39,4 @@ h1{
   }
   .image-box:nth-child(1):hover{
     flex-basis: 50%;
-  }
+  }*/

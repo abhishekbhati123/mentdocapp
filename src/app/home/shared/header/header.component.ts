@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-header',
@@ -11,35 +12,17 @@ export class HeaderComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-    window.onscroll = function() {myFunction()};
+    $(window).on("scroll",function(){
+      if($(window).scrollTop()){
+        $('nav').addClass('black');
+      }
+      else{
+        $('nav').removeClass('black');
+      }
+    })
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
+    
+   
   }
-}
-  }
-  openLeftMenu() {
-    document.getElementById("leftMenu").style.display = "block";
-  }
-  closeLeftMenu() {
-    document.getElementById("leftMenu").style.display = "none";
-  }
-  openRightMenu() {
-    document.getElementById("rightMenu").style.display = "block";
-  }
-  closeRightMenu() {
-    document.getElementById("rightMenu").style.display = "none";
-  }
-  gotoSecurity(){
-    this.router.navigateByUrl('security')
-  }
-  gotoAdmin(){
-    this.router.navigateByUrl('admin')
-  }
+ 
 }

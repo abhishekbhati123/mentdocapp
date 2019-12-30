@@ -42,6 +42,9 @@ import { Header2Component } from './shared/header2/header2.component';
 import { CountUpModule } from 'countup.js-angular2';
 import { DownappComponent } from './downapp/downapp.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { TestimonialService } from './testimonial.service';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +73,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     FaqComponent,
     Header2Component,
     DownappComponent,
-    FooterComponent
+    FooterComponent,
+    PrivacyComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -78,7 +83,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     AngularFireModule.initializeApp(environment.firebase),AngularFireStorageModule,CKEditorModule,
     OwlModule,CountUpModule
   ],
-  providers: [],
+  providers: [TestimonialService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

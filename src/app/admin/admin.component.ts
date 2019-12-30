@@ -26,6 +26,7 @@ export class AdminComponent implements OnInit {
     this.news="";
     this.article="";
     this.testimonial="";
+    
 
   }
   

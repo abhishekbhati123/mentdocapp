@@ -10,6 +10,16 @@ export class Header2Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(window).on("scroll",function(){
+      if($(window).scrollTop()){
+        $('nav').addClass('black');
+      }
+      else{
+        $('nav').removeClass('black');
+      }
+    })
+
+   
     $(document).ready(function() {
       $('.leftmenutrigger').on('click', function(e) {
           $('.side-nav').toggleClass("open");
@@ -25,6 +35,7 @@ export class Header2Component implements OnInit {
   $(".card-link").click(function() {
       $(this).toggleClass("down");
   })
+
   }
 
 }

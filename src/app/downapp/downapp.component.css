@@ -1,4 +1,110 @@
+/*.about{
+    padding-top: 100px;
+    padding-bottom: 100px;  
+  }
+  
+  .about img{
+    width: 30vh;
+  }
+  .cen{
+    padding-top: 50px;
+    padding-bottom:50px ;
+    max-width: 1200px;
+  }*/
 
+.first{
+    background: #fff;
+}
+.second{
+    background:#f1f1f1;
+}
+.fourth{
+    background: #f1f1f1;
+}
+.fifth{
+    background: #f1f1f1
+}
+
+  .services{
+    background: #fff;
+    text-align:center;
+    z-index: 500;
+    
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #25CCF7;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow:hidden;
+    padding:20px;
+}
+.fixed{
+    display: inline-block;
+    width: calc(100% /2);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition:0.4s;
+
+
+}
+
+.service:hover{
+    background:#ddd;
+}
+
+.detail .login{
+    margin-bottom: 30px;
+    width: 18vh;
+    
+}
+.service img{
+   
+    margin-bottom: 30px;
+    width: 38vh;
+
+}
+.detail h2{
+    font-size: 35px;
+   /* text-transform: uppercase;*/
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.detail p{
+
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+    
+}
+.detail .para1{
+    margin-top:100px;
+}
+@media screen and (max-width:800px){
+    .fixed{
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px){
+    .fixed{
+        width:100%;
+    }
+}
+
+
+/*
 .services{
     background: #28328c;
   
@@ -42,7 +148,7 @@
 
 
 }
-/* h2 convert in h1*/
+
 .service h1{
     font-size: 40px;
     text-transform: uppercase;
@@ -51,7 +157,7 @@
     margin-top: 10px;
     color:#ffffff;
 }
-/* p tag*/
+
 .clearfix{
     color:#ffffff;
     font-size: 15px;
@@ -72,8 +178,8 @@
     clear:both;
     height:0;
 }
-/*span tag related*/
-/*span tag related css*/
+span tag related
+span tag related css
 .display-cell{
     display: table-cell;
 }
@@ -86,14 +192,14 @@
     opacity: .5;
 }
 
-/*  playstore logo css             */
+playstore logo css            
 .cushion-v
 {
     padding:20px 0;
     float:left;
 }
 
-/*link */
+link 
 h5 a{
     color:#14bef0!important;
     cursor:pointer;
@@ -117,3 +223,4 @@ h5{
         width:100%;
     }
 }
+*/

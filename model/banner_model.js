@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
+/*var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var BannerSchema = new Schema({
+var GallarySchema = new Schema({
   title: {
     type: String,
     required: true
@@ -9,4 +9,17 @@ var BannerSchema = new Schema({
   photoUrl:{type:String,required:true,unique:true}
 });
 
-module.exports = mongoose.model('Banner', BannerSchema);
+module.exports = mongoose.model('Gallary', GallarySchema);*/
+  
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+var GallarySchema = new Schema({
+  title: {
+    type: String,
+    required: true
+  },
+  photoUrl:{type:String,required:true,unique:true}
+});
+
+module.exports = mongoose.model('Banner', GallarySchema);

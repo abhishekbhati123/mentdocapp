@@ -1,4 +1,32 @@
-*{
+/**{
+    box-sizing: border-box;
+}
+.section{
+    background: #fff;
+    width: 100%;
+}
+h1{
+    color:#fff;
+    font-size: 40px !important;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family:'open sans' Sans-serif;
+    margin: 0px 0px 11.5px;
+   
+}
+p{
+    color: #fff;
+    font-size: 23px;
+    margin-top: -10px;
+    font-family: 'open sans',Sans-serif;
+    margin: -10px 0px 23px;
+}
+.first-div{
+    background: linear-gradient(to right,  #042b59 0%,#487ebd 100%);
+}
+*/
+
+/**{
     box-sizing: border-box;
 }
 .modals{
@@ -45,4 +73,37 @@ p{
 }
 h1{
     color: #21abe1
+}
+*/
+.modals{
+    width: 100%;
+    background: #fff;
+    z-index: 500;
+}
+.card{
+    background: linear-gradient(to right,  #042b59 0%,#487ebd 100%);
+}
+.card h2{
+    color:#fff;
+    width: auto;
+    font-size: 40px !important;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family:'open sans' Sans-serif;
+
+   
+
+}
+.card p{
+    color: #fff;
+    font-size: 23px;
+    margin-top: -10px;
+    font-family: 'open sans',Sans-serif;
+
+}
+.single-service h1{
+    margin: 10px;
+}
+.firstaddress{
+    margin: 10px;
 }

@@ -1,95 +1,347 @@
-body {
-    background:#000000 !important;
-   }
+/*.about{
+    padding-top: 100px;
+    padding-bottom: 100px;  
+  }
+  
+  .about img{
+    width: 30vh;
+  }
+  .cen{
+    padding-top: 50px;
+    padding-bottom:50px ;
+    max-width: 1200px;
+  }*/
+
+  .first{
+    background: #fff;
+}
+.second{
+    background:#f1f1f1;
+}
+.fourth{
+    background: #f1f1f1;
+}
+
+  .services{
+    background: #fff;
+    text-align:center;
+    z-index: 500;
+    
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #25CCF7;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow:hidden;
+    padding:20px;
+}
+.service{
+    display: inline-block;
+    width: calc(100% /2);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition:0.4s;
+
+
+}
+.service:hover{
+    background:#ddd;
+}
+.login a img{
+    width: 38vh;
+}
+.service img{
    
-   /*
+    margin-bottom: 30px;
+    width: 38vh;
+  
+    
+
+}
+.service h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.service p{
+    color:gray;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+@media screen and (max-width:800px){
+    .service{
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px){
+    .service{
+        width:100%;
+    }
+}
+
+
+/*
+.services{
+    background: #28328c;
+  
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow:hidden;
+    padding:20px;
+}
+.service{
+    display: inline-block;
+    width: calc(100% / 2);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    transition:0.4s;
+
+
+}
+.cushion-v a img{
    
-   */
+    margin-bottom: 30px;
+    width: 20vh;
+
+
+}
+
+.service img{
    
-   h3 {
-     color: rgba(31,181,172,.9);
-   }
-   .text{
-       color: rgba(31,181,172,.9);
-       text-align: center;
-   }
-   
-   
-   .folded-corner:hover .text{
-       visibility: visible;
-       color: #000000;;
-   }
-   .Services-tab{
-       margin-top:20px;
-       
-   
-   }
-   
-   /*
-     nav link items
-   */
-   .folded-corner{
-     padding: 25px 25px;
-     position: relative;
-     font-size: 90%;
-     text-decoration: none;
-     color: #999; 
-     background: transparent;
-     transition: all ease .5s;
-     border: 1px solid rgba(31,181,172,.9);
-   }
-   .folded-corner:hover{
-       background-color: rgba(31,181,172,.9);
-   }
-   
-   /*
-     paper fold corner
-   */
-   
-   .folded-corner:before {
-     content: "";
-     position: absolute;
-     top: 0;
-     right: 0;
-     border-style: solid;
-     border-width: 0 0px 0px 0;
-     border-color: #ddd #000;
-     transition: all ease .3s;
-   }
-   
-   /*
-     on li hover make paper fold larger
-   */
-   .folded-corner:hover:before {
-       background-color: #D00003;
-     border-width: 0 50px 50px 0;
-     border-color: #eee #000;
-     
-   }
-   
-   .service_tab_1{
-       background-color: #000;
-   }
-   .service_tab_1:hover .fa-icon-image{
-       color: #000;
-       transform: rotate(360deg) scale(1.5);
-   }
-   
-   
-   .fa-icon-image{
-       color: rgba(31,181,172,.9);
-       display: inline-block;
-       font-style: normal;
-       font-variant: normal;
-       font-weight: normal;
-       line-height: 1;
-       font-size-adjust: none;
-       font-stretch: normal;
-      
-       text-rendering: auto;
-       transition: all .65s linear 0s;
-       text-align: center;
-       transition: all 1s cubic-bezier(.99,.82,.11,1.41);
-   }
-   
-   
+    margin-bottom: 30px;
+    width: 70vh;
+
+
+}
+
+.service h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color:#ffffff;
+}
+
+.clearfix{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    display:block;
+
+}
+.service .clearfix:before{
+    content:" ";
+    display:table;
+
+}
+.service .clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+span tag related
+span tag related css
+.display-cell{
+    display: table-cell;
+}
+.dash{
+    margin:0;
+}
+.display-cell .dash{
+    text-decoration:none;
+    font-style: normal;
+    opacity: .5;
+}
+
+playstore logo css            
+.cushion-v
+{
+    padding:20px 0;
+    float:left;
+}
+
+link 
+h5 a{
+    color:#14bef0!important;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+h5{
+    font-weight:700;
+    font-size:14px;
+    line-height:20px;
+    margin:15px 0;
+}
+
+@media screen and (max-width:800px){
+    .service{
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px){
+    .service{
+        width:100%;
+    }
+}
+*/
+
+
+
+/*.about{
+  padding-top: 100px;
+  padding-bottom: 100px;  
+}
+
+.about img{
+  width: 30vh;
+}
+.cen{
+  padding-top: 50px;
+  padding-bottom:50px ;
+}
+*/
+/*
+.services{
+  background: #fff;
+
+}
+.services h1{
+  display: inline-block;
+  text-transform: uppercase;
+  
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow:hidden;
+  padding:20px;
+}
+.service{
+  display: inline-block;
+  width: calc(100% / 2);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  transition:0.4s;
+
+
+}
+.cushion-v a img{
+ 
+  margin-bottom: 30px;
+  width: 20vh;
+
+
+}
+
+.service img{
+ 
+  margin-bottom: 30px;
+  width: 60vh;
+
+
+}
+
+.service h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.clearfix{
+  color:#ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  display:block;
+
+}
+.service .clearfix:before{
+  content:" ";
+  display:table;
+
+}
+.service .clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content:" ";
+  clear:both;
+  height:0;
+}
+span tag related
+span tag related css
+.display-cell{
+  display: table-cell;
+}
+.dash{
+  margin:0;
+}
+.display-cell .dash{
+  text-decoration:none;
+  font-style: normal;
+  opacity: .5;
+}
+
+  playstore logo css             
+.cushion-v
+{
+  padding:20px 0;
+  float:left;
+}
+
+link 
+h5 a{
+  color:#14bef0!important;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+h5{
+  font-weight:700;
+  font-size:14px;
+  line-height:20px;
+  margin:15px 0;
+}
+
+@media screen and (max-width:800px){
+  .service{
+      width: 50%;
+  }
+}
+@media screen and (max-width:500px){
+  .service{
+      width:100%;
+  }
+}
+*/
