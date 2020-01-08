@@ -13,12 +13,12 @@
   }*/
 
 .first{
-    background: #fff;
+    background: #f1f1f1;
 }
 .second{
     background:#f1f1f1;
 }
-.fourth{
+.third{
     background: #f1f1f1;
 }
 .fifth{
@@ -44,7 +44,7 @@
     overflow:hidden;
     padding:20px;
 }
-.fixed{
+.service{
     display: inline-block;
     width: calc(100% /2);
     margin: 0 -2px;
@@ -60,45 +60,31 @@
     background:#ddd;
 }
 
-.detail .login{
-    margin-bottom: 30px;
-    width: 18vh;
-    
-}
+
 .service img{
    
     margin-bottom: 30px;
     width: 38vh;
 
 }
-.detail h2{
-    font-size: 35px;
-   /* text-transform: uppercase;*/
+.service h2{
+    font-size: 28px;
+    text-transform: uppercase;
     font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
 }
-.detail p{
-
-    font-size: 25px;
+.service p{
+    color:gray;
+    font-size: 15px;
     font-weight: 500;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
+}
 
-    
-}
-.detail .para1{
-    margin-top:100px;
-}
 @media screen and (max-width:800px){
-    .fixed{
+    .service{
         width: 50%;
     }
 }
 @media screen and (max-width:500px){
-    .fixed{
+    .service{
         width:100%;
     }
 }

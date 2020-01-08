@@ -1,5 +1,6 @@
 body{
 	margin:auto;
+
 }
 h3{
 	text-align:center;
@@ -7,6 +8,7 @@ h3{
 .main-content{
 	top:55px;
 	position:relative;
+
 }
 .header-part h3{
 	text-align:center;

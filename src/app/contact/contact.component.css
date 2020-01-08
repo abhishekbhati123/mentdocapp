@@ -1,3 +1,55 @@
+.modals{
+    width: 100%;
+    margin:auto 0;
+    background: #fff;
+    z-index: 500;
+}
+.card{
+    background: linear-gradient(to right,  #042b59 0%,#487ebd 100%);
+}
+.card h2{
+    color:#fff;
+    width: auto;
+    font-size: 40px !important;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family:'open sans' Sans-serif;
+
+   
+
+}
+.card p{
+    color: #fff;
+    font-size: 23px;
+    margin-top: -10px;
+    font-family: 'open sans',Sans-serif;
+
+}
+.single-service h1{
+    margin: 10px;
+}
+.firstaddress{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**{
     box-sizing: border-box;
 }
@@ -25,8 +77,8 @@ p{
     background: linear-gradient(to right,  #042b59 0%,#487ebd 100%);
 }
 */
-
-/**{
+/*
+*{
     box-sizing: border-box;
 }
 .modals{
@@ -74,8 +126,9 @@ p{
 h1{
     color: #21abe1
 }
+
 */
-.modals{
+/*.modals{
     width: 100%;
     background: #fff;
     z-index: 500;
@@ -107,3 +160,4 @@ h1{
 .firstaddress{
     margin: 10px;
 }
+*/

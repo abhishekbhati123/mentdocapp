@@ -10,12 +10,32 @@ export class Header2Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    $('.menu-toggle').click(function(){
+      $('.site-nav').toggleClass('site-nav--open')
+      $(this).toggleClass('open')
+    });
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
     $(window).on("scroll",function(){
       if($(window).scrollTop()){
-        $('nav').addClass('black');
+        $('.container-fluid').addClass('black');
       }
       else{
-        $('nav').removeClass('black');
+        $('.container-fluid').removeClass('black');
       }
     })
 

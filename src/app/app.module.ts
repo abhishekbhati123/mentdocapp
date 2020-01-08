@@ -44,7 +44,8 @@ import { DownappComponent } from './downapp/downapp.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { TestimonialService } from './testimonial.service';
 import { PrivacyComponent } from './privacy/privacy.component';
-import { AboutComponent } from './about/about.component';
+import { AboutUsComponent } from './home/shared/about-us/about-us.component';
+import {AboutComponent} from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,9 @@ import { AboutComponent } from './about/about.component';
     DownappComponent,
     FooterComponent,
     PrivacyComponent,
+    AboutUsComponent,
     AboutComponent
+    
   ],
   imports: [
     BrowserModule,

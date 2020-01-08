@@ -23,6 +23,14 @@ h4{
 .single-service{
     box-shadow:0 4px 8px 0 rgba(0,0,0 ,.2);
     transition:0.3s;
-    padding-bottom:40px;
-    
+    /*padding-top: 40px;*/
+
+}
+h4{
+    color: #333;
+    line-height: 1.1em;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
