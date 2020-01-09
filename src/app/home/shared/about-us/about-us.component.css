@@ -1,9 +1,6 @@
 section{
     background: #fff;
-    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
-.btn:focus, .btn:active {
-    outline: none !important;
-    box-shadow: none !important;
-  }
