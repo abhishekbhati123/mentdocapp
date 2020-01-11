@@ -3,6 +3,7 @@ import baguetteBox from 'baguettebox.js';
 import { HttpClient } from '@angular/common/http';
 
 
+
 @Component({
   selector: 'app-gallary',
   templateUrl: './gallary.component.html',

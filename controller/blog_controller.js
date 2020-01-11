@@ -23,3 +23,12 @@ exports.getAllBlogs=function(req,res,next){
         }
     })
 }
+exports.getSingleBlog = function(req, res) {
+
+    Blog.findById(req.body.id,function (err,result) {
+        if(!err && result){
+            res.send(result)
+        }
+        });
+    
+};

@@ -14,7 +14,7 @@ export class TestomonialComponent implements OnInit {
 
   ngOnInit() {
    
-   
+   this.getAllTestimonials();
    
 
   }
@@ -25,7 +25,7 @@ export class TestomonialComponent implements OnInit {
   cbb=(res)=>{
     this.Testimonials = res;
     console.log(this.Testimonials);
-    this.loader="raja"
+
   }
   
 

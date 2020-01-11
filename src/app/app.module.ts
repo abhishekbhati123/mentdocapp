@@ -42,10 +42,14 @@ import { Header2Component } from './shared/header2/header2.component';
 import { CountUpModule } from 'countup.js-angular2';
 import { DownappComponent } from './downapp/downapp.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { TestimonialService } from './testimonial.service';
+import { TestimonialsService } from './testimonials.service';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { AboutUsComponent } from './home/shared/about-us/about-us.component';
 import {AboutComponent} from './about/about.component';
+import { LoaderComponent } from './loader/loader.component';
+import { NgxSpinnerModule } from "ngx-spinner";
+import { BlogViewComponent } from './blog-view/blog-view.component';
+
 
 @NgModule({
   declarations: [
@@ -77,16 +81,19 @@ import {AboutComponent} from './about/about.component';
     FooterComponent,
     PrivacyComponent,
     AboutUsComponent,
-    AboutComponent
+    AboutComponent,
+    LoaderComponent,
+    BlogViewComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,NgbModule,FormsModule,HttpClientModule,ReactiveFormsModule,  
     AngularFireModule.initializeApp(environment.firebase),AngularFireStorageModule,CKEditorModule,
-    OwlModule,CountUpModule
+    OwlModule,CountUpModule,
+    NgxSpinnerModule
   ],
-  providers: [TestimonialService],
+  providers: [TestimonialsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

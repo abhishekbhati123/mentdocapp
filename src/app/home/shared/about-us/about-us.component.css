@@ -1,5 +1,10 @@
 section{
     background: #fff;
-    padding:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+    overflow: hidden;
+
+    width: 95%;
 }
 

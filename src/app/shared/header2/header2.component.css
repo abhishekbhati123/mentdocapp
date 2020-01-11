@@ -116,7 +116,7 @@ header::after{
 .open .hamburger::after{
   transform: translateY(-3px) rotate(-90deg);
 }
-.site-nav a::before,.site-nav a::after{
+/*.site-nav a::before,.site-nav a::after{
   position: absolute;
   left: 0px;
   width: 100%;
@@ -138,6 +138,7 @@ header::after{
     opacity: 1;
     transform: translateY(0px);
   }
+  */
 @media (min-width:700px){
     .menu-toggle{
       display:none;

@@ -9,7 +9,7 @@ import { HttpClient } from "@angular/common/http";
 export class Slider1Component implements OnInit {
 images;
   constructor(config: NgbCarouselConfig,private http:HttpClient) { 
-    config.interval = 10000;
+    config.interval = 5000;
     config.wrap = false;
     config.keyboard = false;
     config.pauseOnHover = false;

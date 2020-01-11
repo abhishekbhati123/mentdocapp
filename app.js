@@ -10,6 +10,7 @@ var blogRouter=require('./routes/blog_router');
 var gallaryRouter=require('./routes/gallary_router');
 
 
+
 var cors=require('cors')
 
 
@@ -35,6 +36,7 @@ app.use(function(req,res,next){
 app.use('/api/banner', CorousalRouter);
 app.use('/api/testimonial', testimonialRouter);
 app.use('/api/blog', blogRouter);
+
 app.use('/api/gallary',gallaryRouter);
 
 

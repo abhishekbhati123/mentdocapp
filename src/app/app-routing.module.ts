@@ -10,6 +10,7 @@ import { AdminComponent } from './admin/admin.component';
 import { DownappComponent } from './downapp/downapp.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { AboutComponent } from './about/about.component';
+import { BlogViewComponent } from './blog-view/blog-view.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path:'download',component:DownappComponent},
   {path:'privacy',component:PrivacyComponent},
   {path:'about',component:AboutComponent},
+  {path:'blogview/:id',component:BlogViewComponent},
   { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
 ];
 
